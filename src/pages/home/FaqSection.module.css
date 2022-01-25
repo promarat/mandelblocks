@@ -1,0 +1,34 @@
+.container {
+  padding: 3.3vmax 6vw 3.3vmax 6vw;
+  background-color: black;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px !important;
+  color: white;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 2rem 0;
+}
+
+.text {
+  font-size: 16px;
+  white-space: pre-wrap;
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .row {
+    width: 75% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

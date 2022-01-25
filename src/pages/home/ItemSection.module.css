@@ -1,0 +1,53 @@
+.container {
+  padding: 3vw 6vw;
+  background-color: black;
+}
+
+.row {
+  /* --bs-gutter-x: 12vw;
+  --bs-gutter-y: 12vw; */
+}
+
+.imageWrapper {
+  height: 0;
+  padding-bottom: 133.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 18px !important;
+  color: #a8a6a1;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: white;
+  white-space: pre-wrap;
+  margin-top: 1%;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 16px;
+  color: white;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+}

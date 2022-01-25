@@ -1,0 +1,92 @@
+.container {
+  /* padding: 3vw 6vw; */
+  background-color: black;
+}
+/* 
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+} */
+
+.content {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 30%;
+}
+
+.title {
+  color: #a8a6a1;
+  font-weight: 700;
+  /* font-size: 4rem; */
+  color: white;
+}
+@media (min-width: 576px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+.playVideo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.playVideo::before {
+  position: absolute;
+  content: '';
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-color: var(--app-primary);
+  border-radius: 50%;
+  opacity: 0.5;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-name: playPluse;
+}
+.playIcon {
+  color: black;
+  font-size: 20px;
+}
+@keyframes playPluse {
+  from {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 0.8;
+  }
+
+  to {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}

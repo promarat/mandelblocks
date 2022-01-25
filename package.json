@@ -1,0 +1,60 @@
+{
+  "name": "mandelblocks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@mui/material": "latest",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@toruslabs/torus-embed": "^1.20.2",
+    "@walletconnect/web3-provider": "^1.7.1",
+    "assert": "^2.0.0",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^14.2.0",
+    "ethers": "^5.5.3",
+    "query-string": "^7.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hamburger-button": "0.0.1",
+    "react-icons": "^4.3.1",
+    "react-image-list": "^0.5.0",
+    "react-notifications": "^1.7.3",
+    "react-numeric-input": "^2.2.3",
+    "react-player": "^2.9.0",
+    "react-responsive": "^9.0.0-beta.5",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^4.0.3",
+    "react-tabs": "^3.2.3",
+    "walletlink": "^2.4.4",
+    "web3": "^1.7.0",
+    "web3modal": "^1.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+.wallettoggle{
+  width: 250px;
+}
+.walletContainer {
+  z-index: 1;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #e5e5ea;
+  width: 360px;
+  max-width: calc(100vw - 10px);
+  margin-top: 20px;
+  left: calc(50% - 180px);
+  top: 50px;
+  padding: 8px;
+  display: none;
+  transition: visibility 600ms cubic-bezier(.4,0,.2,1),opacity 400ms cubic-bezier(.4,0,.2,1);
+}
+
+.openContainer {
+  display: inline;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.button {
+  height: 38px;
+}
+
+.buttonText {
+  width: 100%;
+  font-weight: 600;
+  font-size: 12px;
+  color: #3a3a3c;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 12px;
+}
+
+@media (min-width:576px) {
+  .walletContainer {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}

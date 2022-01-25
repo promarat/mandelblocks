@@ -1,0 +1,31 @@
+.inputMint {
+  width: 100px;
+  text-align: center;
+  border: 1px rgb(250, 226, 226) solid;
+  box-shadow: 0 5px rgb(240, 240, 240);
+  font-weight: 700;
+}
+.mintcountchange {
+  width: 40px;
+  text-align: center;
+  box-shadow: 0 5px rgb(96, 108, 212);
+  margin: 0 3px;
+}
+.mintcountchange:focus {
+  box-shadow: 0 5px rgb(96, 108, 212)!important;
+}
+.mintcountchange:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px rgb(96, 108, 212);
+  outline: none;
+}
+.mintbutton {
+  width: 250px;
+  box-shadow: 0 5px rgb(96, 108, 212);
+}
+.mintbutton:active {
+  transform: translateY(4px);
+}
+.mintbutton:focus {
+  box-shadow: 0 5px rgb(96, 108, 212)!important;
+}

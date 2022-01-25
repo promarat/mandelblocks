@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  flex-grow: 1;
+  width: 100%;
+  height: 480px;
+  max-height: calc(100vw - 120px);
+  color: black;
+  margin-top: 50px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 16px;
+  z-index: 1;
+}
+
+.image {
+  max-width: 100%;
+
+  /* place-content: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border: 1px solid rgba(195, 195, 195, 0.14); */
+}
+.owner {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  max-width: 800px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  overflow: auto; */
+}
+.videoNft video {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+@media (min-width: 0px) {
+  .responsible {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsible {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .responsible {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .responsible {
+    width: 20%;
+  }
+}
