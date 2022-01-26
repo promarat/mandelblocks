@@ -14,7 +14,7 @@ const InventoryTab = (props) => {
         let metaData = [];
         setLoading(true);
         for (var key in data) {
-          let eUrl = `https://ipfs.io/ipfs/QmSpesZg2VNgNoMvVoARcZJuYjBhcYcFtPvApAvbt38AVT/${data[
+          let eUrl = `https://ipfs.io/ipfs/abc/${data[
             key
           ].toNumber()}.json`;
           let metaJson = await getMetadata(eUrl);

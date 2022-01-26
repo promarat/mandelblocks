@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { FaPlay } from "react-icons/fa";
 
 import styles from "./VideoSection.module.css";
-import MandelblockVideo from "../../assets/images/MandelBlocks_Video_1.ogg";
+import MandelblockVideo from "../../assets/images/SPOILER_MandelBlocks_Hype_Video_1080p.mov";
 
 const VideoSection = () => {
   const [autoplay, setAutoplay] = useState(false);
@@ -23,7 +23,7 @@ const VideoSection = () => {
         <div className={`${styles.content} ${autoplay ? "d-none" : ""}`}>
           <h2 className={styles.title}>
             A visualization of the Beauty of Mathematics
-            <div className="d-flex justify-content-center mt-5">
+            <div className={`d-flex justify-content-center mt-5 ${styles.playbutton}`}>
               <div className={styles.playVideo} onClick={() => setAutoplay(true)}>
                 <FaPlay className={styles.playIcon} />
               </div>

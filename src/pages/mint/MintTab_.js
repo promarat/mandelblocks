@@ -7,11 +7,14 @@ const MintTab = (props) => {
   return (
     <>
       <div className={styles.container}>
-        <div className="d-flex flex-column align-items-center g-4" style={{zIndex: "1"}}>
-          <h1 className={styles.title}>Trees and Butterflies</h1>
-          <h2 className={styles.text}>
+        <div
+          className="d-flex flex-column align-items-center g-4"
+          style={{ zIndex: "1" }}
+        >
+          <h1 className={styles.title}>MandelBlocks</h1>
+          {/* <h2 className={styles.text}>
             Trees and Butterflies playing in the summer
-          </h2>
+          </h2> */}
           <h5 className={styles.address}>{props.account}</h5>
           {!props.flag ? (
             <WalletButton connect={(name) => props.connect(name)} />

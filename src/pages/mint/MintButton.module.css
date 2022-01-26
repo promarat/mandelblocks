@@ -29,3 +29,24 @@
 .mintbutton:focus {
   box-shadow: 0 5px rgb(96, 108, 212)!important;
 }
+@media (min-width: 0px) {
+  .mintbutton {
+    width: 150px;
+    font-size: 0.8rem;
+    padding: 6px 6px;
+  }
+  .mintwidth{
+    width: 100%;
+  }
+}
+
+@media (min-width: 476px) {
+  .mintbutton {
+    width: 250px;
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+  .mintwidth{
+    width: 500px;
+  }
+}

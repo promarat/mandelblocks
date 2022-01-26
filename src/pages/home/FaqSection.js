@@ -5,7 +5,7 @@ import styles from './FaqSection.module.css';
 const FAQS = [
   {
     title: 'How many pieces are there in the collection?',
-    text: 'xxxx',
+    text: '723',
   },
   {
     title: 'Are there traits?',

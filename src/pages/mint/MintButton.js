@@ -7,8 +7,8 @@ const MintButton = (props) => {
   const [mintCount, setMintCount] = useState(1);
   return (
     <div
-      className="position-relative d-flex align-items-center mt-4 justify-content-around"
-      style={{ width: "500px" }}
+      className={`position-relative d-flex align-items-center mt-4 justify-content-around ${styles.mintwidth}`}
+      // style={{ width: "500px" }}
     >
       <div className="d-flex">
         <button

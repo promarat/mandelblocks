@@ -23,33 +23,12 @@
   /* font-size: 4rem; */
   color: white;
 }
-@media (min-width: 576px) {
-  .title {
-    font-size: 2rem;
-  }
-}
 
-@media (min-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 1400px) {
-  .title {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .title {
-    font-size: 4rem;
-  }
-}
 .playVideo {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   width: 72px;
   height: 72px;
   padding: 0;
@@ -60,7 +39,7 @@
 
 .playVideo::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -88,5 +67,53 @@
   to {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
+  }
+}
+
+@media (min-width: 0px) {
+  .playVideo {
+    width: 40px;
+    height: 40px;
+  }
+  .playVideo::before {
+    width: 40px;
+    height: 40px;
+  }
+  .playbutton{
+    margin-top: 1rem!important;
+  }
+  .title{
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 376px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 576px) {
+  .title {
+    font-size: 2rem;
+  }
+  .playVideo {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .title {
+    font-size: 4rem;
   }
 }

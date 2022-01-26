@@ -17,7 +17,7 @@ import WalletLink from "walletlink";
 import abi from "../../contract/abi.json";
 
 const infuraId = "88b3ca144c6648df843909df0371ee08";
-const contractAddress = "0x142D89E1F716fa26B7ac8b532C6B990F86Eb8411";
+const contractAddress = "";
 const contractAbi = abi;
 const tokenPrice = 0.1;
 

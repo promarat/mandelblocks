@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://discord.gg/p5zfsT2a" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
             <MdLink className="fp-30" />
           </a>
-          <a href="https://twitter.com/squarespace" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
+          <a href="https://twitter.com/MandelBlocks" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
             <AiOutlineTwitter className="fp-30" />
           </a>
         </div>
