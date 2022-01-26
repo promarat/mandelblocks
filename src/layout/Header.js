@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 
 import { AiOutlineTwitter } from 'react-icons/ai';
-import { MdLink } from 'react-icons/md';
+import { BsDiscord } from 'react-icons/bs';
 import { HamburgerButton } from 'react-hamburger-button';
 
 import styles from './Header.module.css';
@@ -69,8 +69,8 @@ const Header = () => {
           </div>
         ) : (
           <div className="d-flex align-items-center justify-content-center gap-2">
-            <a href="https://discord.gg/p5zfsT2a" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
-              <MdLink className="fp-28" />
+            <a href="https://discord.gg/gMVmKZSk" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
+              <BsDiscord className="fp-28" />
             </a>
             <a href="https://twitter.com/MandelBlocks" target="_blank" rel="noreferrer" className="white decoration-none hover-white">
               <AiOutlineTwitter className="fp-28" />
@@ -91,8 +91,8 @@ const Header = () => {
                 ))}
               </div>
               <div className={styles.modalNavActions}>
-                <a href="https://discord.gg/p5zfsT2a" target="_blank" rel="noreferrer" className="black decoration-none hover-black">
-                  <MdLink className="fp-28" />
+                <a href="https://discord.gg/gMVmKZSk" target="_blank" rel="noreferrer" className="black decoration-none hover-black">
+                  <BsDiscord className="fp-28" />
                 </a>
                 <a href="https://twitter.com/MandelBlocks" target="_blank" rel="noreferrer" className="black decoration-none hover-black">
                   <AiOutlineTwitter className="fp-28" />
