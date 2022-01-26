@@ -13,7 +13,7 @@ const VideoSection = () => {
         className={`d-flex justify-content-center position-relative ${styles.row}`}
       >
         <ReactPlayer
-          url={MandelblockVideo}
+          url={"https://gateway.pinata.cloud/ipfs/QmXJBru2rEYDPB22AzLgwrs558mT8R86MhjtSLLPTn19ZW"}
           playing={autoplay}
           className={`${styles.mandelblockvideo}`}
           width="100%"
