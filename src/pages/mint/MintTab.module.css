@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-grow: 1;
   width: 100%;
   height: 480px;
@@ -21,22 +21,71 @@
 
 .title {
   font-weight: 700;
-  font-size: 28px;
-  color: rgb(39, 46, 54);
+  /* font-size: 28px; */
+  /* font-size: 4rem; */
+  color: white;
   margin-top: 20px;
+}
+
+.address{
+  color: white;
 }
 
 .text {
   font-weight: 500;
-  font-size: 16px;
-  color: rgb(39, 46, 54);
+  /* font-size: 16px; */
+  font-size: 1.5rem;
+  color: white;
   margin-top: 10px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .desc {
-  font-weight: 600;
-  font-size: 14px;
-  color: rgb(0, 116, 46);
+  /* font-weight: 600; */
+  /* font-size: 14px; */
+  font-size: 1.5rem;
+  color: white;
   margin-top: 16px;
+}
+
+@media (min-width: 0px) {
+  .title {
+    font-size: 2rem;
+  }
+  .text{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 476px) {
+  .text{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .title {
+    font-size: 2rem;
+  }
+  .text{
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .title {
+    font-size: 4rem;
+  }
 }

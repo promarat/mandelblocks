@@ -13,10 +13,10 @@ const MENU_LIST = [
     path: '/',
     text: 'Home',
   },
-  // {
-  //   path: '/new-page',
-  //   text: 'Mint',
-  // },
+  {
+    path: '/mint',
+    text: 'Mint',
+  },
 ];
 
 const Header = () => {

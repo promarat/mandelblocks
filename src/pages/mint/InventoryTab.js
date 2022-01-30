@@ -13,14 +13,17 @@ const InventoryTab = (props) => {
         let data = props.data;
         let metaData = [];
         setLoading(true);
+        console.log("loading");
         for (var key in data) {
-          let eUrl = `https://ipfs.io/ipfs/abc/${data[
+          let eUrl = `https://ipfs.io/ipfs/QmSngbLcKJhRRMdrwBqUqFRE8MdAtqDPTfUNxJRKBvFrCR/${data[
             key
           ].toNumber()}.json`;
+          console.log(eUrl)
           let metaJson = await getMetadata(eUrl);
           metaData.push(metaJson);
         }
         setLoading(false);
+        console.log("loading false");
         setMetaDataJson(metaData);
       }
     };
@@ -75,7 +78,7 @@ const InventoryTab = (props) => {
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", margin: "20px" }}>
             {metaDataJson.map((item, key) =>
-              item.description === "Mandel Blocks Video" ? (
+              item.description !== "Mandel Blocks Video" ? (
                 <div
                   key={key}
                   className={styles.responsible}
