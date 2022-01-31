@@ -170,10 +170,10 @@ const MintScreen = () => {
     }
 
     //Public Sale
-    if (sale && saleAmount === 2 && !hexProof.length) {
+    // if (sale && saleAmount === 2 && !hexProof.length) {
       hexProof = publicProof;
       userIndex = 0;
-    }
+    // }
 
     try {
       const tx = await contract.mint(userAddress, mintCount, hexProof, userIndex, {
