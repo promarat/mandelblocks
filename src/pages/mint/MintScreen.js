@@ -50,7 +50,7 @@ const web3Modal = new Web3Modal({
 });
 
 let web3Provider = null;
-const sale = false;
+const sale = true;
 
 const saleAmount = 1;
 // const saleAmount = 2;
