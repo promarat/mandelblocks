@@ -52,8 +52,8 @@ const web3Modal = new Web3Modal({
 let web3Provider = null;
 const sale = true;
 
-const saleAmount = 1;
-// const saleAmount = 2;
+//const saleAmount = 1;
+const saleAmount = 2;
 
 const MintScreen = () => {
   const [tabIndex, setTabIndex] = useState(0);
